@@ -1,6 +1,6 @@
 function Calculator() {
   const calc = (e) => {
-    console.log(e)
+    console.log(e);
   };
 
   return (
