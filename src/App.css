@@ -1,39 +1,89 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --tenne-tawny: #e26b2b;
+  --tenne-tawny-dark: #b54507;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  padding-top: 60px;
+}
+
+.calculator {
+  max-width: 600px;
+  min-height: 78vh;
+  margin: 0 auto;
+  background: #fff;
   text-align: center;
+  background: #d3d3d3;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input-area {
+  width: 100%;
+  padding: 1.5rem 0.7rem;
+  font-size: 1.6rem;
+  font-family: inherit;
+  outline: none;
+  border: none;
+  text-align: end;
+  background: #d3d3d3;
+  color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.row-one,
+.row-two,
+.row-three,
+.row-four {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 0.1rem;
+  margin: 0.1rem 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.col-one,
+.col-two,
+.col-three,
+.col-four {
+  padding: 1.5rem 0.7rem;
+  width: 148.5px;
+  font-family: inherit;
+  font-size: 1.6rem;
+  outline: none;
+  border: none;
 }
 
-.App-link {
-  color: #61dafb;
+.row-five {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 0.1rem;
+  margin: 0.1rem 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.col-five {
+  padding: 1.5rem 0.7rem;
+  width: 148.9px;
+  font-family: inherit;
+  font-size: 1.6rem;
+  outline: none;
+  border: none;
+}
 
-  to {
-    transform: rotate(360deg);
-  }
+.zero {
+  width: 100%;
+}
+
+.orange {
+  background: var(--tenne-tawny);
 }
