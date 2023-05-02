@@ -21,7 +21,6 @@ section {
 
 .calculator {
   max-width: 600px;
-  min-height: 78vh;
   margin: 0 auto;
   text-align: center;
   background: #d3d3d3;
@@ -48,6 +47,7 @@ section {
   grid-template-columns: auto auto auto auto;
   gap: 0.1rem;
   margin: 0.1rem 0;
+  background: #d3d3d3;
 }
 
 .col-one,
@@ -68,6 +68,7 @@ section {
   grid-template-columns: 2fr 1fr 1fr;
   gap: 0.1rem;
   margin: 0.1rem 0;
+  background: #d3d3d3;
 }
 
 .col-five {
