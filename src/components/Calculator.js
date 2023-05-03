@@ -1,11 +1,22 @@
-function Calculator() {
-  const calc = (e) => {
-    console.log(e);
+import { useState } from 'react';
+import calculate from '../logic/calculate';
+import '../App.css';
+
+const Calculator = () => {
+  const [state, addNewState] = useState({
+    total: null,
+    next: null,
+    operation: null,
+  });
+
+  const calc = (event) => {
+    const newState = calculate(state, event.target.textContent);
+    addNewState(newState);
   };
 
   return (
     <div className="calculator">
-      <input className="input-area" value={0} disabled />
+      <input className="input-area" value={state.next || state.total || 0} disabled />
       <div className="row-one">
         <button className="col-one" type="button" value="clear-all" onClick={calc}>AC</button>
         <button className="col-one" type="button" value="plus-minus" onClick={calc}>+/-</button>
@@ -16,7 +27,7 @@ function Calculator() {
         <button className="col-two" type="button" value="7" onClick={calc}>7</button>
         <button className="col-two" type="button" value="8" onClick={calc}>8</button>
         <button className="col-two" type="button" value="9" onClick={calc}>9</button>
-        <button className="col-two orange" type="button" value="multiply" onClick={calc}>X</button>
+        <button className="col-two orange" type="button" value="*" onClick={calc}>x</button>
       </div>
       <div className="row-three">
         <button className="col-three" type="button" value="4" onClick={calc}>4</button>
@@ -37,5 +48,6 @@ function Calculator() {
       </div>
     </div>
   );
-}
+};
+
 export default Calculator;
