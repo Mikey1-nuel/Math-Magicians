@@ -13,10 +13,14 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  background: #f2ef9e;
 }
 
 section {
   padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .calculator {
@@ -24,6 +28,8 @@ section {
   margin: 0 auto;
   text-align: center;
   background: #d3d3d3;
+  border: 2px solid #c20000;
+  margin-top: 2rem;
 }
 
 .input-area {
@@ -55,7 +61,7 @@ section {
 .col-three,
 .col-four {
   padding: 1.5rem 0.7rem;
-  width: 148.5px;
+  width: 147.9px;
   font-family: inherit;
   font-size: 1.6rem;
   outline: none;
@@ -86,4 +92,120 @@ section {
 
 .orange {
   background: var(--tenne-tawny);
+}
+
+/* NAB BAR */
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+  padding: 0 2rem;
+  background-color: rgb(255, 202, 138);
+}
+
+.nav h1 {
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  color: #c20000;
+}
+
+.menu {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #c20000;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.menu li a:hover {
+  color: #ff0404;
+}
+
+/* HOME PAGE */
+
+.homePage {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+.homePage h2 {
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  margin-bottom: 50px;
+  background-color: #c20000;
+  padding: 1rem;
+  border-radius: 3rem;
+}
+
+.homePage p {
+  font-size: 1.4rem;
+  font-family: 'Poppins', sans-serif;
+  color: #c20000;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* QUOTE */
+
+.quote-container {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+.quote-container h2 {
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  margin-bottom: 50px;
+  background-color: #c20000;
+  padding: 1rem;
+  border-radius: 3rem;
+}
+
+.quote-container p {
+  font-size: 1.4rem;
+  font-family: 'Poppins', sans-serif;
+  color: #c20000;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.quote-container p span {
+  font-weight: 600;
+}
+
+.quote-container button {
+  padding: 1rem 2rem;
+  border: none;
+  outline: none;
+  box-shadow: 0 3px 3px 2px black;
+  background-color: #c20000;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.quote-container button:hover {
+  transform: scale(1.02);
+  background-color: #ff0404;
 }
