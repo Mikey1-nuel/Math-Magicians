@@ -120,7 +120,7 @@ section {
   list-style-type: none;
 }
 
-.menu li a {
+.menu li {
   text-decoration: none;
   color: #c20000;
   font-size: 1.3rem;
