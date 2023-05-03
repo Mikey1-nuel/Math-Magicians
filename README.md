@@ -56,7 +56,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://mikey1-nuel.github.io/Math-Magicians/)
+- [Live Demo Link](https://magic-math-calculator.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
