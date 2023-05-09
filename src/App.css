@@ -24,6 +24,21 @@ section {
   align-items: center;
 }
 
+.calc-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid orange;
+  padding: 0 10rem;
+  gap: 5rem;
+}
+
+.calc-cont h2 {
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  color: #c20000;
+}
+
 .calculator {
   max-width: 600px;
   margin: 0 auto;
