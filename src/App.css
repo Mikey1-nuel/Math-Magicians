@@ -14,6 +14,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   background: #f2ef9e;
+  overflow: hidden;
 }
 
 section {
@@ -203,9 +204,14 @@ section {
   color: #fff;
   font-size: 1rem;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .quote-container button:hover {
   transform: scale(1.02);
-  background-color: #ff0404;
+  transition: 200ms ease-in-out transform;
+}
+
+.quote-container button:active {
+  transform: scale(0.9);
 }
