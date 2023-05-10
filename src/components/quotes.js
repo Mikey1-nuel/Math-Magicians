@@ -5,7 +5,7 @@ function Quote() {
   const [quote, setQuote] = useState('');
   const [author, setAuthor] = useState('');
   const [loading, setLoading] = useState(false);
-  const [errorMessage, setErrorMessage] = useState('');
+  const [setErrorMessage] = useState('');
 
   const category = 'success';
 
@@ -43,9 +43,10 @@ function Quote() {
 
   return (
     <div className="quote-container">
-    <h2>Quote Of The Day</h2>
+      <h2>Quote Of The Day</h2>
       <p>
-        {quote}<br></br>
+        {quote}
+        <br />
         <span className="author">
           &nbsp;(
           { author}
