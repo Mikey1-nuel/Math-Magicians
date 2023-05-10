@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote renders correctly 1`] = `
+<div
+  className="quote-container"
+>
+  <h2>
+    Quote Of The Day
+  </h2>
+  <p>
+    <br />
+    <span
+      className="author"
+    >
+       (
+      )
+    </span>
+  </p>
+  <button
+    className="quote-btn"
+    onClick={[Function]}
+    type="button"
+  >
+    New Quote
+  </button>
+</div>
+`;

@@ -9,13 +9,13 @@ function App() {
   return (
     <Router>
       <div>
-        <Nav/>
-          <div className='pageContainer'>
-            <Routes>
-              <Route path='/' element={<Home/>}/>
-              <Route path='/calculator' element={<Calculator/>}/>
-              <Route path='/quotes' element={<Quote/>}/>
-            </Routes>
+        <Nav />
+        <div className="pageContainer">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/calculator" element={<Calculator />} />
+            <Route path="/quotes" element={<Quote />} />
+          </Routes>
         </div>
       </div>
     </Router>

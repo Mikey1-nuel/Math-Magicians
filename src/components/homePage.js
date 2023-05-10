@@ -3,7 +3,7 @@ import React from 'react';
 
 const Home = () => (
   <div className="homePage">
-    <h2>Welcome to our page</h2>
+    <h2 className="heading" title="Welcome">Welcome to our page</h2>
     <p>
       Calculators have not only greatly enhanced our ability to perform the
       regular computations that are involved in everyday life, but provided

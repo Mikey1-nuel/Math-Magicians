@@ -8,25 +8,24 @@
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+- [� Table of Contents](#-table-of-contents)
+- [📖 \[Math Magicians\] ](#-math-magicians-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Build for production](#build-for-production)
+    - [Run tests](#run-tests)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 # 📖 [Math Magicians] <a name="about-project"></a>
 
@@ -51,12 +50,6 @@
 - [x] Create a simple calculation web app
 - [x] Add all necessary operations for basic a basic calculator.
 - [x] Used React technology.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://math-calculator-btmj.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -107,6 +100,10 @@ npm run build
 
 ### Run tests
 
+```
+npm run Test
+```
+
 - ### Linter Tests
 
 To run tests, run the following command:
@@ -138,6 +135,12 @@ To check for js errors run:
 - GitHub: [Githubhandle](https://github.com/Mikey1-nuel)
 - Twitter: [Twitterhandle](https://twitter.com/Mikey_nuel)
 - LinkedIn: [LinkedInhandle](https://www.linkedin.com/in/emmanuel-nwoye-5915141b8/)
+
+👤 **Ahmed Najash**
+
+- GitHub: [@githubhandle](https://github.com/jash-debug)
+- Twitter: [@twitterhandle](https://twitter.com/ahmed_najash)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/ahmed-najash-286a671ab)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
