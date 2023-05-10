@@ -139,6 +139,12 @@ To check for js errors run:
 - Twitter: [Twitterhandle](https://twitter.com/Mikey_nuel)
 - LinkedIn: [LinkedInhandle](https://www.linkedin.com/in/emmanuel-nwoye-5915141b8/)
 
+👤 **Ahmed Najash**
+
+- GitHub: [@githubhandle](https://github.com/jash-debug)
+- Twitter: [@twitterhandle](https://twitter.com/ahmed_najash)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/ahmed-najash-286a671ab)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
