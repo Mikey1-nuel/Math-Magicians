@@ -107,6 +107,10 @@ npm run build
 
 ### Run tests
 
+```
+npm run Test
+```
+
 - ### Linter Tests
 
 To run tests, run the following command:
