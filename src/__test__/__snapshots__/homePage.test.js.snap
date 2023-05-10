@@ -6,6 +6,7 @@ exports[`test home component should render correctly 1`] = `
 >
   <h2
     className="heading"
+    title="Welcome"
   >
     Welcome to our page
   </h2>

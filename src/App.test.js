@@ -1,8 +1,17 @@
-import { render, screen } from '@testing-library/react';
-// import App from './App';
+import {
+  render, fireEvent, waitFor, screen,
+} from '@testing-library/react';
+import App from './App';
+import Home from './components/homePage';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+beforeEach(() => render(<App />));
+
+test('Checks if the title is available on home page', () => {
+  const { queryAllByTitle } = render(<Home />);
+  const title = queryAllByTitle('Welcome');
+  expect(title).toBeTruthy();
+});
+
+test('does not render the calculator page', () => {
+  expect(() => screen.getByText(/Let's do some math!/i)).toThrowError();
 });
